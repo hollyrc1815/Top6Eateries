@@ -1,0 +1,22 @@
+body {
+	background-color: black;
+	color: white;
+	padding: 50px;
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+.jumbotron {
+	background-color: black;
+}
+
+.navbar {
+	color: white;
+    background-color: black;
+}
+.card-body {
+	background-color: black;
+}
+.card-header {
+	background-color: black;
+}
