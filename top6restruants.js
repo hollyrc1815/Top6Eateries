@@ -1,7 +1,13 @@
-var rockPaperScissors = prompt("Rock, Paper, Scissors?");
-var computerChoice = Math.floor(Math.random()*10);
 
- 
+var computerChoice; 
+var correctAnswer = prompt("do you want to play a game?");
+var rockPaperScissors; 
+
+while(correctAnswer === "yes") {
+
+computerChoice = Math.floor(Math.random()*10);
+rockPaperScissors = prompt("Rock, Paper, Scissors?");
+
  if(computerChoice <= 3) {
  	console.log("Computer plays Rock ");
  	if(rockPaperScissors === "paper"){
@@ -50,7 +56,9 @@ else if(computerChoice > 6) {
  			alert("You Tie!");
  		}
 }
-
+correctAnswer = prompt("do you want to play again?");
+}
+alert("Thanks For Playing!!");
 
 
 
